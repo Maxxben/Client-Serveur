@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.38.2 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <object class="GtkWindow" id="windowConnexion">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkFixed" id="fixedConnexion">
+        <property name="width-request">500</property>
+        <property name="height-request">300</property>
+        <property name="visible">True</property>
+        <property name="can-focus">False</property>
+        <child>
+          <object class="GtkButton" id="btnConnexion">
+            <property name="label" translatable="yes">CONNEXION AU JEU</property>
+            <property name="width-request">460</property>
+            <property name="height-request">60</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">120</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="btnQuitter">
+            <property name="label" translatable="yes">QUITTER</property>
+            <property name="width-request">460</property>
+            <property name="height-request">60</property>
+            <property name="visible">True</property>
+            <property name="can-focus">True</property>
+            <property name="receives-default">True</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">200</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="lblTitre">
+            <property name="width-request">460</property>
+            <property name="height-request">30</property>
+            <property name="visible">True</property>
+            <property name="can-focus">False</property>
+            <property name="label" translatable="yes">BIENVENUE DANS LE JEU DU DILEMME DU PRISONNIER</property>
+          </object>
+          <packing>
+            <property name="x">20</property>
+            <property name="y">40</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
